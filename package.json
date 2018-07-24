@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "webpack-dev-server --progress"
+    "start": "webpack-dev-server --progress",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
   },
   "license": "Apache-2.0",
   "devDependencies": {
@@ -13,6 +15,7 @@
     "css-loader": "^0.28.0",
     "extract-loader": "^1.0.2",
     "file-loader": "^1.1.11",
+    "gh-pages-deploy": "^0.5.0",
     "node-sass": "^4.9.2",
     "sass-loader": "^6.0.4",
     "webpack": "^3.0.0",
