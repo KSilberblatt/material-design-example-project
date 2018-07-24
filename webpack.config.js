@@ -4,7 +4,6 @@ module.exports = [
     output: {
       // This is necessary for webpack to compile
       // But we never use style-bundle.js
-      publicPath: "/assets/",
       filename: 'style-bundle.js',
     },
     module: {
